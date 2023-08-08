@@ -1,22 +1,18 @@
 <template>
 	<view class="content">
-		<tabBar :current="0" />
+		home
 	</view>
 </template>
 
 <script>
-	import tabBar from '@/components/tabbar/index.vue'
+	// import tabBar from '@/components/tabbar/index.vue'
 	export default {
 		data() {
 			return {
 				title: 'Hello World'
 			}
 		},
-		components:{
-			tabBar
-		},
 		onLoad() {
-			uni.hideTabBar();
 		},
 		methods: {
 

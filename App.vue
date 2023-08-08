@@ -43,16 +43,6 @@
 			}
 		},
 		onShow: function() {
-			 uni.setStorage({
-			   key: 'tabList',
-			   data: tabbar,
-			   success: function () {
-			     console.log('success');
-			   },
-				 fail() {
-				 	console.log('error')
-				 }
-			 });
 			// uni.hideTabBar();
 		},
 		onHide: function() {

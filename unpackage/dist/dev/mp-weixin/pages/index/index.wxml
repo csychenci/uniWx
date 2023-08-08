@@ -1,1 +1,1 @@
-<view class="content"><tab-bar wx:if="{{a}}" u-i="b3d8abc2-0" bind:__l="__l" u-p="{{a}}"/></view>
+<view class="content"> home </view>
