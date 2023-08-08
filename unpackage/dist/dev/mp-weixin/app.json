@@ -1,13 +1,28 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/login/login"
+    "pages/login/index",
+    "pages/search/index",
+    "pages/user/index"
   ],
   "window": {
     "navigationBarTextStyle": "black",
     "navigationBarTitleText": "uni-app",
     "navigationBarBackgroundColor": "#F8F8F8",
     "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index"
+      },
+      {
+        "pagePath": "pages/search/index"
+      },
+      {
+        "pagePath": "pages/user/index"
+      }
+    ]
   },
   "usingComponents": {}
 }

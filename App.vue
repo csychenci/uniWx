@@ -1,5 +1,11 @@
+
 <script>
 	export default {
+		data(){
+			return {
+				tabList:[]
+			}
+		},
 		onLaunch: function() {
 			// 从 storage 获取登陆信息，没有则需要登录
 			let tokenInfo = uni.getStorageSync("tokenInfo");
@@ -37,10 +43,23 @@
 			}
 		},
 		onShow: function() {
-			console.log('App Show')
+			 uni.setStorage({
+			   key: 'tabList',
+			   data: tabbar,
+			   success: function () {
+			     console.log('success');
+			   },
+				 fail() {
+				 	console.log('error')
+				 }
+			 });
+			// uni.hideTabBar();
 		},
 		onHide: function() {
 			console.log('App Hide')
+		},
+		onLoad() {
+			uni.hideTabBar();
 		}
 	}
 </script>

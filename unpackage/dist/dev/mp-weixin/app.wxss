@@ -1,3 +1,39 @@
+.uniWx-tabbar.data-v-0e399a7b {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 48px;
+  border-top: 1px solid #ccc;
+  background: white;
+  display: flex;
+}
+.uniWx-tabbar .tabbar-border.data-v-0e399a7b {
+  background-color: white;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 1px;
+  border-top: 2rpx solid rgba(187, 187, 187, 0.3);
+  transform: scaleY(0.5);
+}
+.uniWx-tabbar .tabbar-item.data-v-0e399a7b {
+  flex: 1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.uniWx-tabbar .tabbar-item > image.data-v-0e399a7b {
+  width: 24px;
+  height: 24px;
+}
+.uniWx-tabbar .tabbar-item > view.data-v-0e399a7b {
+  font-size: 10px;
+}
+
 
 	/*每个页面公共css */
 page{--status-bar-height:25px;--top-window-height:0px;--window-top:0px;--window-bottom:0px;--window-left:0px;--window-right:0px;--window-magin:0px}[data-c-h="true"]{display: none !important;}

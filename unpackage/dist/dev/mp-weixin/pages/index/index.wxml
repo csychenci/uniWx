@@ -1,1 +1,1 @@
-<view class="content"><image class="logo" src="/static/logo.png"></image><view class="text-area"><text class="title">{{a}}</text></view></view>
+<view class="content"><tab-bar wx:if="{{a}}" u-i="b3d8abc2-0" bind:__l="__l" u-p="{{a}}"/></view>
