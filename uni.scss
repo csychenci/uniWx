@@ -13,6 +13,8 @@
  */
 
 /* 颜色变量 */
+// 引入uview全局scss变量
+@import "@/uview-ui/theme.scss";
 
 /* 行为相关颜色 */
 $uni-color-primary: #007aff;

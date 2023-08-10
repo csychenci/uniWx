@@ -3,27 +3,28 @@
 		{
 			"path": "pages/index/index",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "uni-app",
+				"navigationStyle": "custom"
 			}
 		}, {
 			"path": "pages/login/index",
 			"style": {
 				"navigationBarTitleText": "",
-				"enablePullDownRefresh": false
+				"navigationStyle": "custom"
 			}
 
 		}, {
 			"path": "pages/search/index",
 			"style": {
 				"navigationBarTitleText": "",
-				"enablePullDownRefresh": false
+				"navigationStyle": "custom"
 			}
 
 		}, {
 			"path": "pages/user/index",
 			"style": {
 				"navigationBarTitleText": "",
-				"enablePullDownRefresh": false
+				"navigationStyle": "custom"
 			}
 
 		}
@@ -41,34 +42,5 @@
 		"navigationBarBackgroundColor": "#F8F8F8"
 		// "backgroundColor": "#F8F8F8"
 	},
-	"uniIdRouter": {},
-	"tabBar": {
-		"backgroundColor": "blue",
-		// "color": "#00000033",
-		// "selectedColor": "#000000",
-		// "height":"176px",
-		// "fontSize":"24px",
-		"list": [{
-				"pagePath": "pages/index/index",
-				"iconPath": "static/icon/layout_tabbar_home.png",
-				"selectedIconPath": "static/icon/layout_tabbar_home_active.png",
-				"text": "首页",
-				"name": "home"
-			},
-			{
-				"pagePath": "pages/search/index",
-				"iconPath": "/static/icon/layout_tabbar_shop.png",
-				"selectedIconPath": "/static/icon/layout_tabbar_shop_active.png",
-				"text": "找款",
-				"name": "search"
-			},
-			{
-				"pagePath": "pages/user/index",
-				"iconPath": "/static/icon/layout_tabbar_user.png",
-				"selectedIconPath": "/static/icon/layout_tabbar_user_active.png",
-				"text": "我的",
-				"name": "user"
-			}
-		]
-	}
+	"uniIdRouter": {}
 }

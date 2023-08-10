@@ -54,6 +54,8 @@
 	}
 </script>
 
-<style>
-	/*每个页面公共css */
+<style lang="scss">
+	@import "colorui/main.css";
+	@import "colorui/icon.css";
+	@import "uview-ui/index.scss";
 </style>
